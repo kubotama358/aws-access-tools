@@ -1,0 +1,3 @@
+- env_cd: dev
+  polling_time: 10000
+  default_timeout_milli_sec: 5000

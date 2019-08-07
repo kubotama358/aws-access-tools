@@ -1,0 +1,5 @@
+table_name:
+  environment:
+    key_name: ID
+  user_info:
+    key_name: CD
