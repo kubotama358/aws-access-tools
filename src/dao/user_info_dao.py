@@ -3,11 +3,11 @@ from utils.logging import get_logger
 from utils.aws.dynamodb import DynamoDB
 
 logger = get_logger()
-TABLE_NAME = 'environment'
-KEY = 'env_cd'
+TABLE_NAME = 'user_info'
+KEY = 'user_id'
 
 
-class EnvironmentDao:
+class UserInfoDao:
     dynamodb = None
 
     def __init__(self, profile, region_name):
